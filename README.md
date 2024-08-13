@@ -2,7 +2,7 @@
 
 An Ansible script which sets up a LAMP stack.
 
-I run this on an [AWS EC2 Virtual Machine](https://eu-central-1.console.aws.amazon.com/ec2/home?region=eu-central-1#InstanceDetails:instanceId=i-0200e46d3ff3f5aa6) running Alma Linux 9.4.2
+For testing, I have set up a [AWS EC2 Virtual Machine](https://eu-central-1.console.aws.amazon.com/ec2/home?region=eu-central-1#InstanceDetails:instanceId=i-0200e46d3ff3f5aa6) running Alma Linux 9.4.2
 
 
 Learning resources:
