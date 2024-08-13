@@ -1,0 +1,20 @@
+---
+- hosts: all
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: Copy LAMP config
+      ansible.builtin.copy:
+       src: lamp-docker
+       dest: /home/ec2-user/
+
+    - name: Spin up the Docker-compose LAMP containers
+      community.docker.docker_compose_v2:
+        project_src: lamp-docker
+        state: present
+      register: output
+
+    - name: Show results
+      ansible.builtin.debug:
+        var: ofutput

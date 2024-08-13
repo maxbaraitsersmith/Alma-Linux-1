@@ -1,0 +1,28 @@
+---
+
+- hosts: all
+  become: true
+  tasks: 
+
+  - name: Update repositories
+    dnf:
+      name: "*"
+      state: latest
+
+  - name: Install yum-utils
+    dnf:
+      name: yum-utils
+
+  - name: Add yum repository #not idempotent
+    shell: yum-config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+
+
+  - name: Install Docker packages
+    dnf:
+      name: docker-ce,docker-ce-cli,containerd.io,docker-compose-plugin
+
+  - name: Start Docker
+    service:
+      name: docker
+      state: started
+      enabled: true
