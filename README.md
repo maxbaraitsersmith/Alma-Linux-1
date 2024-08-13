@@ -14,5 +14,3 @@ Learning resources:
 [Installing Docker on Alma Linux](https://www.liquidweb.com/blog/install-docker-on-linux-almalinux/)
 
 [Installing a LAMP server with Docker Images](https://medium.com/@mikez_dg/how-to-set-up-a-simple-lamp-server-with-docker-images-in-2023-9b0e24476ec6)
-
-[Docker Compose Lamp (Github)](https://github.com/sprintcube/docker-compose-lamp) 
