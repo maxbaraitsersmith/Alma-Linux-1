@@ -1,6 +1,6 @@
-# Ansible-Test-1
+# Ansible LAMP Test
 
-An Ansible script which sets up a LAMP stack.
+This repository contains the Ansible scripts for installing a LAMP stack using Docker.
 
 For testing, I have set up a [AWS EC2 Virtual Machine](https://eu-central-1.console.aws.amazon.com/ec2/home?region=eu-central-1#InstanceDetails:instanceId=i-0200e46d3ff3f5aa6) running Alma Linux 9.4.2
 
