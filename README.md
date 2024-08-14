@@ -15,7 +15,7 @@ $ ansible-playbook run-lamp-docker.yml
 
 SSH directly into EC2 server
 ```
-$ssh -i Alma\ Linux.pem ec2-user@3.76.124.180
+$ ssh -i Alma\ Linux.pem ec2-user@3.76.124.180
 ```
 
 ## Learning resources
