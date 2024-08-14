@@ -21,6 +21,7 @@ $ ssh -i Alma\ Linux.pem ec2-user@3.76.124.180
 Apache and phpMyAdmin on EC2 server:
 
 [http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com/](http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com/)
+
 [http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com:8080/](http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com:8080/)
 
 ## Learning resources
