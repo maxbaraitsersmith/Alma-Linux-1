@@ -1,11 +1,14 @@
 # Ansible LAMP Test
 
-This repository contains the Ansible scripts for installing a LAMP stack using Docker.
+This repository contains the Ansible scripts for installing a LAMP stack using Docker Compose.
 
 For testing, I have set up a [AWS EC2 Virtual Machine](https://eu-central-1.console.aws.amazon.com/ec2/home?region=eu-central-1#InstanceDetails:instanceId=i-0200e46d3ff3f5aa6) running Alma Linux 9.4.2
 
+## Usage
+ansible-playbook install-docker.yml
+ansible-playbook run-lamp-docker.yml
 
-Learning resources:
+## Learning resources
 
 [Ansible Docs](https://docs.ansible.com/)
 
