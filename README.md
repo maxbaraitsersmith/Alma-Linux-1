@@ -2,7 +2,7 @@
 
 This repository contains the Ansible scripts for installing a LAMP stack using Docker Compose.
 
-For testing, I have set up a [AWS EC2 Virtual Machine](https://eu-central-1.console.aws.amazon.com/ec2/home?region=eu-central-1#InstanceDetails:instanceId=i-0200e46d3ff3f5aa6) running Alma Linux 9.4.2
+For testing, I have set up a [AWS EC2 Virtual Machine](https://eu-central-1.console.aws.amazon.com/ec2/home?region=eu-central-1#InstanceDetails:instanceId=i-0200e46d3ff3f5aa6) running Alma Linux 9.4.2.
 
 ## Usage
 
@@ -17,6 +17,11 @@ SSH directly into EC2 server
 ```
 $ ssh -i Alma\ Linux.pem ec2-user@3.76.124.180
 ```
+
+Apache and phpMyAdmin on EC2 server:
+
+[http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com/](http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com/)
+[http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com:8080/](http://ec2-3-76-124-180.eu-central-1.compute.amazonaws.com:8080/)
 
 ## Learning resources
 
