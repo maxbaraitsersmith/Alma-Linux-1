@@ -6,6 +6,7 @@ For testing, I have set up a [AWS EC2 Virtual Machine](https://eu-central-1.cons
 
 ## Usage
 ansible-playbook install-docker.yml
+
 ansible-playbook run-lamp-docker.yml
 
 ## Learning resources
