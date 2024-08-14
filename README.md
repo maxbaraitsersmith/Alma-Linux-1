@@ -6,9 +6,16 @@ For testing, I have set up a [AWS EC2 Virtual Machine](https://eu-central-1.cons
 
 ## Usage
 
+Run ansible scripts
+
 ```
 $ ansible-playbook install-docker.yml
 $ ansible-playbook run-lamp-docker.yml
+```
+
+SSH directly into EC2 server
+```
+ssh -i Alma\ Linux.pem ec2-user@3.76.124.180
 ```
 
 ## Learning resources
