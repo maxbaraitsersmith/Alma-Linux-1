@@ -9,7 +9,7 @@
        src: lamp-docker
        dest: /home/ec2-user/
 
-    - name: Spin up the Docker-compose LAMP containers
+    - name: Run the Docker-compose LAMP containers
       community.docker.docker_compose_v2:
         project_src: lamp-docker
         state: present
@@ -17,4 +17,4 @@
 
     - name: Show results
       ansible.builtin.debug:
-        var: ofutput
+        var: output
